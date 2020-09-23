@@ -1,0 +1,28 @@
+.ButtonContent
+{
+    position: fixed ;
+    top: 60%;
+    left: 50%;
+    width: auto;
+    transform: translate(-50%, -10%);
+    
+    
+}
+button
+{
+    
+    font-size: 3rem;
+    border-radius: 100%;
+    padding: 10px 15px 9px 15px;
+    border-color: white;
+    border-style: solid;
+}
+.RightButton
+{
+    margin-left: 44px   ;
+}
+.IconImage
+{
+    border-radius: 100%;
+    font-size: 42px;
+}
