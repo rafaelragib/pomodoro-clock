@@ -7,8 +7,8 @@ class Button extends Component
     render()
     {   return(
         <div className={classes.ButtonContent}>
-        <button ><BsPlay className={classes.IconImage}/></button>
-        <button className={classes.RightButton}><VscDebugRestart className={classes.IconImage}/></button>
+        <button onClick={this.props.start} ><BsPlay className={classes.IconImage}/></button>
+        <button onClick={this.props.reset} className={classes.RightButton}><VscDebugRestart className={classes.IconImage}/></button>
         </div>
         );
     }
